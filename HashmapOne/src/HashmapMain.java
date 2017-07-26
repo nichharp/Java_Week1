@@ -11,7 +11,10 @@ public class HashmapMain {
 	ArrayList<String> a = new ArrayList<String>();
 
 	public static void main(String[] args) {
-
+		AnagramFiles y = new AnagramFiles();
+		y.fileToArray();
+		y.arrayToHashmap();
+		
 	}
 
 	public void fileToArray() {
