@@ -3,7 +3,7 @@ import java.io.Serializable;
 
 
 public class Person implements Serializable {
-	private static final long serialVersionUID = 1L; // dunno what this is for. ASK!
+//	private static final long serialVersionUID = 1L; // dunno what this is for. ASK!
 
 	
 	String name;
