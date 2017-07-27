@@ -1,0 +1,20 @@
+for (i -> the size of the array)
+	holder = String(i)
+	newHolder = sortedString(i)
+	
+
+	if ( there is no String in the hashmap with the sortedString(i) )
+		put this new value in the hashmap with __integer 1__
+	else ( it is there )
+		x = number of instances of this String(i)
+		replace String(i) with the new integer __x+1__
+		if ( x+1 is the highest count )
+			take the String that has this count and remember the string
+		if ( x+1 has the same as the highest count and the higest String is longer )
+			do nothing
+		if ( x+1  has the same as the highest count and our new String is longer )
+			Holder for the higest string becomes the new String
+		if ( x+1 has the same as the highest count and our new string has the same length )
+			make a new holder and keep it
+		
+		
